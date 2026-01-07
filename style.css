@@ -16,9 +16,11 @@
     color: white;
     border:none;
     padding: 18px 35px;
+    cursor: pointer;
  
 }
 /* main style */
+
 .logo{
     font-size: 45px;
     width:900;
@@ -27,10 +29,13 @@
 .logo-color{
     color:#FD6E0A;
 }
-header{
-    background-color: #FFF8F3;
-    padding:50px;
 
+header{
+     padding-top:50px;
+     background-color: #FFF8F3;
+     background:url("./images/developer.png"),url("./images/header_bg.png"),#FFF8F3;
+     background-position:bottom left,bottom right;
+     background-repeat: no-repeat;
 }
 nav{
     width: 60%;
@@ -38,8 +43,10 @@ nav{
     margin: 0 auto;
     display: flex;
     justify-content:space-between;
+    background-color: #FFF8F3;
 
 }
+
 nav .menu{
    display: flex;
    list-style: none;
@@ -52,4 +59,36 @@ nav .menu a{
     color:#474747;
     text-decoration: none;
 }
-nav 
+#banner{
+   
+    margin:46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    width: 600px;
+    color:#474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    width: bolder;
+    color:black;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color:#757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+#banner .banner-img img{
+    max-width: 584px;
+    vertical-align: middle;
+}
