@@ -132,4 +132,74 @@ nav .menu a{
  .about-info .info-card h4{
     font-size: 20px;
     line-height: 30px;
+   
  }
+ #icon-section{
+    margin-top: 130px;
+  
+ }
+ #icon-section .icon-heading{
+    max-width:1140px;
+    width: 60%;
+    text-align: center;
+    margin:0 auto;
+ }
+#icon-section .icon-heading h1{
+    font-size: 35;
+    width:bolder;
+
+}
+#icon-section .icon-heading p{
+    font-size: 18px;
+    line-height:30px;
+    color:#757575;
+    margin-bottom: 30px;
+}
+ 
+#icon-section{
+     margin-bottom: 50px;
+      
+    
+}
+.icon-container{
+    display:flex;
+    gap:24px;
+    width: 1140px;
+    margin:0 auto; 
+
+     
+}
+
+#icon-section .icon-container .icon{
+  
+    padding:30px;
+    max-width:1140px;
+    border:1px red solid;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.023);
+}
+.icon-container .icon img{
+    margin-bottom: 30px;
+    max-width: 44px;
+    color:#FFFFFF;
+    
+}
+
+
+.icon-container .icon h4{
+    font-size: 20px;
+    width: bold;
+    padding-top: 10px;
+}
+.icon-container .icon p{
+    font-size: 16px;
+    line-height: 28px;
+    color:#757575;
+    text-align: center;
+}
+
+
+    
+   
+
+    
