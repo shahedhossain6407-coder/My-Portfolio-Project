@@ -17,11 +17,12 @@
     border:none;
     padding: 18px 35px;
     cursor: pointer;
- 
+   
 }
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 .section-heading h2{
     font-size: 35px;
@@ -107,9 +108,10 @@ nav .menu a{
 }
  
 /* section-about-me */
-#about{
-    padding-top:130px;
+#about,#icon-section,#resume #bio-data{
+    margin-top: 130px;
 }
+  
 #about .about-container{
       width: 60%;
     max-width:1140px;
@@ -134,10 +136,8 @@ nav .menu a{
     line-height: 30px;
    
  }
- #icon-section{
-    margin-top: 130px;
-  
- }
+ 
+
  #icon-section .icon-heading{
     max-width:1140px;
     width: 60%;
@@ -197,9 +197,95 @@ nav .menu a{
     color:#757575;
     text-align: center;
 }
+/* section resume */
 
+#resume .resume-container{
+    display: flex;
+    max-width: 1140px;
+    width: 60%;
+    margin:113px auto 0;
+    gap:24px;
+}
+.resume-container .section-title{
 
+   font-size: 30px;
+   margin-bottom: 30px;
+   color: rgba(0, 0, 0, 0.819);
+}
+.resume-card .card-title{
+    font-size: 25px;
+     margin-bottom: 10px;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    color:#757575;
+    margin-bottom: 10px;
+    width: bold;
+}
+.resume-card .card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color:#757575;
+    margin-bottom: 30px;
+}
+.btm{
+     background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    width: bold;
+    color: white;
+    border:none;
+    padding: 18px 35px;
+    cursor: pointer;
+    margin-top:50px;
+}
+footer{
+    margin:170px auto 0;
+    background-color:#FFF8F3;
+    padding:130px 0px;
+}
+.bio-data{
+    display: flex;
+    max-width: 1140px;
+    width: 60%;
+    margin: 0 auto;
+    gap: 116px;
+
+}
+.bio-data .socile{
+    max-width: 562px;
+}
+.bio-data .form{
+    max-width: 505px;
+}
+.bio-data .icon a {
+    margin-right: 24px;
+}
+footer h2{
+    font-size:30px;
+    color: #181818;
+    margin-bottom: 20px;
     
+}
+footer p {
+    font-size: 16px;
+    line-height: 28px;
+    color:#474747;
+    margin-bottom: 30px;
+}
+.bio-data form input[type="text"],.bio-data form  textarea{
+    padding:18px 30px;
+    width: 461px;
+    margin-bottom: 24px;
+    border:none;
+    border-radius: 5px;
+    color:757575;
+    line-height: 28px;
+}
+.bio-data form textarea{
+    max-width: 461px;
+}
+
    
 
     
